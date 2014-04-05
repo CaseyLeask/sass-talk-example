@@ -1,0 +1,15 @@
+{
+  "name": "sass_structure",
+  "version": "0.0.0",
+  "description": "A test project to demonstrate a scalable SASS structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Casey Leask",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-sass": "^0.7.1"
+  }
+}
