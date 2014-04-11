@@ -1,4 +1,4 @@
-@mixin button-styles($primary-color, $secondary-color) {
+@mixin cliché-button($primary-color, $secondary-color) {
   background: $primary-color;
   background: linear-gradient(to bottom,
                 $secondary-color 0%,

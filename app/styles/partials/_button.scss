@@ -1,6 +1,6 @@
 button {
   $button-secondary-color: lighten($button-color, 10%);
-  @include button-styles($button-color,
+  @include cliché-button($button-color,
                          $button-secondary-color);
 
   &[disabled] {
