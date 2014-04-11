@@ -6,5 +6,5 @@ gulp.task('sass', function() {
       .pipe(sass())
       .pipe(gulp.dest('build/styles'));
 });
-gulp.task('default', function() {
+gulp.task('default', ['sass'], function() {
 });
