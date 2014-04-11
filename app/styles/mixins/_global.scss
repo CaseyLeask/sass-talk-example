@@ -1,0 +1,8 @@
+@mixin button-styles($primary-color, $secondary-color) {
+  background: $primary-color;
+  background: linear-gradient(to bottom,
+                $secondary-color 0%,
+                $primary-color 50%,
+                $secondary-color 100%);
+}
+

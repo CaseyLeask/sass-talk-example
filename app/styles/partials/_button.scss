@@ -1,10 +1,7 @@
 button {
   $button-secondary-color: lighten($button-color, 10%);
-  background: $button-color;
-  background: linear-gradient(to bottom,
-                $button-secondary-color 0%,
-                $button-color 50%,
-                $button-secondary-color 100%);
+  @include button-styles($button-color,
+                         $button-secondary-color);
 
   &[disabled] {
     background: desaturate($button-color, 90%);

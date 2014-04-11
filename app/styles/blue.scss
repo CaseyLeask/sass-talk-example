@@ -1,4 +1,6 @@
 $theme-color: #004c97;
 $button-color: #004c97;
 
+@import 'mixins/_global.scss';
+
 @import 'patterns/_site-theme.scss';
